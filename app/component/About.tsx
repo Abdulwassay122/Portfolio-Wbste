@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import { useState } from 'react';
-import pic from './laptop-8236497_1280.jpg'
+import pic from './images/laptop-8236497_1280.jpg'
 
 
 type Section = 'skills' | 'education' | 'experience';
@@ -11,13 +11,13 @@ export default function About() {
 
   return (
     <>
-      <section className='flex pt-24 pl-36 pb-24 bg-[#0e1010]'>
+      <section id='about' className='flex pt-24 lg:pl-36 pl-16 pb-24 bg-[#0e1010]'>
         {/* image */}
         <div>
-          <img className='h-[600px] rounded-md' src={pic.src} alt="" />
+          <img className='lg:h-[600px] md:h-[450px] rounded-md md:block hidden' src={pic.src} alt="" />
         </div>
         {/* About */}
-        <div className='w-[700px] mt-5 ml-28 '>
+        <div className='w-[700px] mt-5 lg:ml-28 md:ml-10 '>
           {/* head */}
           <div className='w-[450px] '>
         <h1 className='text-6xl font-semibold font-sen mb-6'>About Me</h1>

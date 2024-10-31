@@ -3,7 +3,7 @@ import React from 'react'
 export default function Skills() {
   return (
     <>
-      <section className=' py-10'>
+      <section id='skills' className=' py-10'>
         <h1 className='text-6xl font-sen font font-semibold flex justify-center '>My Skills</h1>
         <div className='flex '>
         <div className='w-[50%]   ' >
@@ -17,7 +17,7 @@ export default function Skills() {
             </div>
               <div className=' justify-center flex mb-10' >
                 <span className='w-[70%] h-5  bg-gray-400 rounded-full'>
-                  <div className='bg-[#77effc] w-[65%] h-5 rounded-full'></div>
+                  <div className='bg-[#77effc]  w-[65%] h-5 rounded-full'></div>
                 </span>
               </div>
                 {/*1 ------------------------------------------------ */}
