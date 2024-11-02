@@ -4,10 +4,10 @@ export default function Skills() {
   return (
     <>
       <section id='skills' className=' py-10'>
-        <h1 className='text-6xl font-sen font font-semibold flex justify-center '>My Skills</h1>
-        <div className='flex '>
-        <div className='w-[50%]   ' >
-            <h2 className='text-4xl font-roboto flex justify-center mt-10 '>Technical Skills</h2>
+        <h1 className='sm:text-6xl text-5xl font-sen font font-semibold flex justify-center '>My Skills</h1>
+        <div className='flex sm:flex-row flex-col '>
+        <div className='sm:w-[50%] w-[100%]   ' >
+            <h2 className='sm:text-4xl text-2xl font-roboto flex justify-center mt-10 '>Technical Skills</h2>
 
             <div className='flex  justify-center mt-10'>
               <div className='flex font-roboto justify-between w-[70%]'>
@@ -95,8 +95,8 @@ export default function Skills() {
                 {/*7 ------------------------------------------------ */}
         </div> 
 
-        <div className='w-[50%] '>
-            <h2 className='text-4xl font-roboto flex justify-center mt-10'>Professional Skills</h2>
+        <div className='sm:w-[50%] w-[100%] '>
+            <h2 className='sm:text-4xl text-2xl font-roboto flex justify-center mt-10'>Professional Skills</h2>
 
             <div className='flex  justify-center mt-10'>
               <div className='flex font-roboto justify-between w-[70%]'>
