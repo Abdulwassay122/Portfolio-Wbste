@@ -14,10 +14,7 @@ export default function Home() {
     menu?.classList.toggle("hidden");
   }
   return (
-      <div>
-    <head>
-      <title>Abdul Wassay Porfolio</title>
-    </head>
+      <>
     <Navbar />
     <Homee/>
     <About/> 
@@ -25,7 +22,7 @@ export default function Home() {
     <Portfolio/>
     <Contact/>
     <Footer/>
-    </div>
+    </>
   );
 }
 

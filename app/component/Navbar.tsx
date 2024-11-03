@@ -12,8 +12,6 @@ export default function Navbar() {
   const toggleMenu =()=>{
     let menu = document.getElementById('toggleMenu')
     menu?.classList.toggle('hidden')
-    console.log('object')
-
   }
   return (
     <>
